@@ -13,3 +13,25 @@ navToggle.addEventListener("click", () => {
     }
 
 })
+
+window.addEventListener("resize", () => {
+    
+    if(window.innerWidth >= 560){
+        console.log("?")
+        nav.setAttribute("data-visible", true);
+    } else {
+        nav.setAttribute("data-visible", false);
+    }
+
+});
+
+window.addEventListener("load", () => {
+    
+    if(window.innerWidth >= 560){
+        console.log("?")
+        nav.setAttribute("data-visible", true);
+    } else {
+        nav.setAttribute("data-visible", false);
+    }
+
+});
